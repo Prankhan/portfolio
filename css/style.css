@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* hero-one start */
+.hero-one {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+.port {
+  background: #b5b5b5;
+  width: 240px;
+  height: 132px;
+  border-radius: 3px;
+}
+.title {
+  font-size: 19px;
+  font-family: roboto;
+  margin: 10px 55px;
+}
+
+.sub-title {
+  font-size: 15px;
+  font-family: candara;
+  margin-top: -10px;
+  margin-left: 78px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.btn {
+  font-size: 14px;
+  font-family: candara;
+  border: 2px solid blue;
+  margin: 28px 68px;
+  padding: 4px 5px;
+  color: blue;
+  font-weight: 700;
+}
+/* her-one end */
+
+/* hero-two start */
+
+.hero-two {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+/* hero-two end */
+/* template start */
+.template {
+  position: relative;
+  width: 1140px;
+  height: 800px;
+  background: url(../img/istockphoto-1360521209-170667a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 51px;
+  margin-left: 197px;
+  border-radius: 4px;
+  z-index: 1;
+}
+.template::after {
+  width: 100%;
+  height: 800px;
+  content: "";
+  position: absolute;
+  background: black;
+  opacity: 0.6;
+  border-radius: 4px;
+  z-index: -1;
+  top: 0;
+}
+
+.admin {
+  text-align: center;
+}
+.admin .title {
+  font-size: 100px;
+  color: white;
+  font-family: roboto;
+  padding-top: 100px;
+}
+
+.admin .sub-title {
+  font-size: 27px;
+  margin-top: 63px;
+  color: blue;
+  font-weight: 400;
+}
+
+.the {
+  text-align: center;
+}
+
+.the .title {
+  font-size: 66px;
+  color: white;
+  margin-top: 32px;
+}
+
+.the .sub-title {
+  font-size: 25px;
+  color: #8b8b8b;
+  margin-top: 14px;
+}
+/* template end */
+
+.logo {
+  background: blue;
+  width: 714px;
+  height: 122px;
+  border-radius: 4px;
+  margin: 15%;
+}
+.logo .title {
+  font-size: 26px;
+  font-family: roboto;
+  text-transform: capitalize;
+  padding-top: 47px;
+}
+.logo .sub-title {
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  margin-top: -7px;
+  margin-left: 2px;
+}
